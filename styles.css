@@ -669,16 +669,63 @@
   /*----------------------------------------------------------------------------------*/ 
 /* Устроства с маленьким экраном (планшеты, 768px и выше) */
 @media (max-width: 575.98px) {
-     
+    /* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
+    .container{
+        border:1px solid rgb(248,248,248);
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;  
+        width:20%;
+        height:38%;
+        position:absolute;
+        left:50%;
+        top:50%;
+        margin:-100px 0 0 -150px;
+        background-color:rgb(255,255,255);
+        box-shadow: 0 0 10px rgba(148, 144, 144, 0.5);
+    }
+    
+    .container2{
+        width:30%;
+        height:40%;
+        position:absolute;
+        left:45.2%;
+        top:90%;
+        text-align: center;
+        font-size: 0.5em;
+        margin:-100px 0 0 -150px;
+    }
+      
     .body{
         background-color: rgb(248,248,248);
     }
-   
+    
     *{
         font-family:'Arial';/*Ã‘Ë†Ã‘â‚¬ÃÂ¸Ã‘â€žÃ‘â€š*/
     }
     
-
+    .heading{
+        opacity: 70%;
+        font-size: 1.5em;
+        margin-bottom: 11%;
+        text-align: center;
+        font-weight: 600;
+        font-variant: normal;
+    }  
+    
+    .inputs{
+        outline: none;
+        border: none;
+        border: solid 1px #f2f2f2;
+        background-color: rgb(248,248,248);
+        width: 80%;
+        margin-bottom: 8%;
+        padding: 2% 2%;
+        margin-left: 7%;
+        max-width: 100%;
+        border-radius: 5px 5px 5px 5px /*Ãâ€”ÃÂ°ÃÂºÃ‘â‚¬Ã‘Æ’ÃÂ³ÃÂ»Ã‘ÂÃÂµÃÂ¼ Ã‘Æ’ÃÂ³ÃÂ¾ÃÂ»ÃÂºÃÂ¸*/
+    }
     
     .container a{
         text-decoration: none;
@@ -705,11 +752,16 @@
         border-radius: 10px 10px 10px 10px ;
     }
     
-    .Pickcontainer {   
-        min-width:220px;
+    .Pickcontainer {
+        border:1px solid rgb(248,248,248);
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        min-width:200px;
         max-width:220px ;
-        min-height:190px;
-        max-height:190px;
+        min-height:200px;
+        max-height:210px;
         position: absolute;
         top: 0;
         right: 0;
@@ -717,8 +769,9 @@
         left: 0;
         margin: auto;
         background-color:white;
+        box-shadow: 0 0 10px rgba(148, 144, 144, 0.5);
     }
-  
+    
     .Pickheading{
         margin-top: 5%;
         opacity: 70%;
@@ -728,25 +781,42 @@
         font-weight: 600;
         font-variant: normal;
     }
-      
-    .Student a{
-        background-color: rgb(233,171,12);
-        margin-bottom: 10px;
+    
+    .Pickcontainer  a {
+        padding: 3% 4%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: block;
+        width: 80%;
+        height: 100%;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(254,254,244);
+        border: solid 1px #f2f2f2;
+        border-radius: 10px 10px 10px 10px /*Ãâ€”ÃÂ°ÃÂºÃ‘â‚¬Ã‘Æ’ÃÂ³ÃÂ»Ã‘ÂÃÂµÃÂ¼ Ã‘Æ’ÃÂ³ÃÂ¾ÃÂ»ÃÂºÃÂ¸*/
     }
     
+    .Pickcontainer p{
+        text-align: center;
+        font-size: 0.5em;
+        margin-top: 1%;
+        opacity: 60%;
+        font-weight: 200;
+    }
     
+    .Student a{
+        background-color: rgb(233,171,12);
+    }
+       
     .Dean a{
         background-color: rgb(109,51,221);
-        margin-bottom: 10px;
     }
     
     .Teacher a{
         background-color: rgb(80,144,218);
-        margin-bottom: 10px;
     }
     .footer{
         text-align: center;
-        min-width:220px;    
         position: absolute;
         top: 95%;
         right: 0;
@@ -756,7 +826,7 @@
         opacity: 40%;
         font-weight: 700;
     }
-    }
+  }
 
     /*----------------------------------------------------------------------------------*/
     /*----------------------------------------------------------------------------------*/
