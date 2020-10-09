@@ -752,16 +752,12 @@
         border-radius: 10px 10px 10px 10px ;
     }
     
-    .Pickcontainer {
-        border:1px solid rgb(248,248,248);
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
+    .Pickcontainer2 {
+       
         min-width:200px;
-        max-width:220px ;
-        min-height:200px;
-        max-height:210px;
+        max-width:300px ;
+        min-height:190px;
+        max-height:190px;
         position: absolute;
         top: 0;
         right: 0;
@@ -769,20 +765,20 @@
         left: 0;
         margin: auto;
         background-color:white;
-        box-shadow: 0 0 10px rgba(148, 144, 144, 0.5);
+       
     }
     
     .Pickheading{
         margin-top: 5%;
         opacity: 70%;
-        font-size: 1em;
+        font-size: 1.5em;
         margin-bottom: 8%;
         text-align: center;
         font-weight: 600;
         font-variant: normal;
     }
     
-    .Pickcontainer  a {
+    .Pickcontainer2  a {
         padding: 3% 4%;
         margin-left: 5%;
         margin-right: 5%;
@@ -796,7 +792,7 @@
         border-radius: 10px 10px 10px 10px /*Ãâ€”ÃÂ°ÃÂºÃ‘â‚¬Ã‘Æ’ÃÂ³ÃÂ»Ã‘ÂÃÂµÃÂ¼ Ã‘Æ’ÃÂ³ÃÂ¾ÃÂ»ÃÂºÃÂ¸*/
     }
     
-    .Pickcontainer p{
+    .Pickcontainer2 p{
         text-align: center;
         font-size: 0.5em;
         margin-top: 1%;
@@ -806,14 +802,17 @@
     
     .Student a{
         background-color: rgb(233,171,12);
+        margin-bottom: 15px;
     }
        
     .Dean a{
         background-color: rgb(109,51,221);
+        margin-bottom: 15px;
     }
     
     .Teacher a{
         background-color: rgb(80,144,218);
+        margin-bottom: 15px;
     }
     .footer{
         text-align: center;
